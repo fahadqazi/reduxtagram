@@ -20,9 +20,12 @@ module.exports = {
     loaders: [
     // js
     {
-      test: /\.js$/,
-      loaders: ['babel'],
-      include: path.join(__dirname, 'client')
+      test: /\.jsx?$/,
+      loader: 'babel-loader',
+      exclude: /node_modules/,
+      query: {
+          presets: ['es2015']
+      }
     },
     // CSS
     { 

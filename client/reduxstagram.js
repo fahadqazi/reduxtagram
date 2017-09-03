@@ -4,5 +4,5 @@ import css from './styles/style.styl';
 import Main from '../components/Main';
 
 render(
-  <p>hi</p>, document.getElementById('root')
+  <Main/>, document.getElementById('root')
 )

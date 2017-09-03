@@ -1,14 +1,12 @@
-import React, {Component} from 'react';
-import { Link } from 'react-router';
+import React from 'react';
 
-class PhotoGrid extends Component{
+const PhotoGrid = React.createClass({
   render() {
     return (
-      <div>
-       PhotoGrid
+      <div className="photo-grid">
+      I'm the photo grid
       </div>
     )
   }
-};
-
+});
 export default PhotoGrid;

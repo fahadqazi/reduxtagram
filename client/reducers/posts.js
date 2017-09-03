@@ -1,8 +1,9 @@
-//a reducer take in two things
-//1. action
-//2. copy of current state
+// a reducer takes in two things:
 
-function posts(state=[], action){
+// 1. the action (info about what happened)
+// 2. copy of current state
+
+function posts(state = [], action) {
   console.log(state, action);
   return state;
 }

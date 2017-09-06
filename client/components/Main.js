@@ -15,3 +15,7 @@ const Main = React.createClass({
 });
 
 export default Main;
+
+/*
+investigate React.cloneElement further
+*/

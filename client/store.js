@@ -13,7 +13,7 @@ const defaultState = {
   posts,
   comments
 };
-
+// reducer and inital state
 const store = createStore(rootReducer, defaultState);
 
 export const history = syncHistoryWithStore(browserHistory, store);
